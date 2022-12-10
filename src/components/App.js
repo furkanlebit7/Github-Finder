@@ -4,7 +4,7 @@ import Home from "./Home";
 import NotFound from "./NotFound";
 import Alert from "./Alert";
 import About from "./About";
-import { BrowserRouter, Route, Switch, Link, NavLink } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import UserDetail from "./UserDetail";
 import GithubState from "../contex/github/githubState";
 import AlertState from "../contex/alert/alertState";
