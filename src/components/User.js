@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 class User extends Component {
   render() {
-    const { login, avatar_url, html_url } = this.props.user;
+    const { login, avatar_url } = this.props.user;
     return (
       <div className="col-md-4 col-sm-6 col-lg-3">
         <div className="card mt-2">

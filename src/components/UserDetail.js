@@ -4,9 +4,8 @@ import Repos from "./Repos";
 import GithubContext from "../contex/github/githubContext";
 
 const UserDetail = ({ match }) => {
-  const { getUser, loading, user, repos, getUserRepos } = useContext(
-    GithubContext
-  );
+  const { getUser, loading, user, repos, getUserRepos } =
+    useContext(GithubContext);
   useEffect(() => {
     getUser(match.params.login);
     getUserRepos(match.params.login);
@@ -29,7 +28,11 @@ const UserDetail = ({ match }) => {
       <div className="row">
         <div className="col-md-3">
           <div className="card">
-            <img src={avatar_url} className="card-img-top" />
+            <img
+              src={avatar_url}
+              className="card-img-top"
+              alt="profile image"
+            />
             <div className="card-body">
               <p className="card-text">{name}</p>
               <p>

@@ -1,35 +1,33 @@
 {
-  "name": "hello-react",
+  "name": "redux-saga-stoic-euler-cjhgx",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "axios": "^0.21.1",
-    "bootstrap": "^4.5.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
+    "axios": "0.21.0",
+    "bootstrap": "^5.2.3",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-redux": "7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "redux": "4.0.5",
+    "redux-saga": "1.1.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^4.2.1",
-    "file-loader": "^6.0.0",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^9.0.3",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "typescript": "3.8.3"
   },
   "scripts": {
-    "webpack-build": "webpack --mode production",
-    "start": "webpack-dev-server --open"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

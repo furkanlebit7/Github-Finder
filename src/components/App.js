@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import NotFound from "./NotFound";
@@ -8,6 +8,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import UserDetail from "./UserDetail";
 import GithubState from "../contex/github/githubState";
 import AlertState from "../contex/alert/alertState";
+
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (

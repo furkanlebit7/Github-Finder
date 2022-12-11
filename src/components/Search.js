@@ -15,7 +15,7 @@ const Search = () => {
   const onSubmit = (e) => {
     e.preventDefault();
 
-    if (keyword == "") {
+    if (keyword === "") {
       setAlert("Lütfen bir anahtar kelime giriniz", "danger");
     } else {
       searchUsers(keyword);

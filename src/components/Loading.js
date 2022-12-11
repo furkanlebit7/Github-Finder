@@ -1,11 +1,10 @@
 import React from "react";
-import loading from "./loading.gif";
 
 const Loading = () => {
   return (
     <React.Fragment>
       <img
-        src={`/${loading}`}
+        src={require("./loading.gif")}
         alt="Loading..."
         style={{ width: "200px", display: "block", margin: "auto" }}
       />
